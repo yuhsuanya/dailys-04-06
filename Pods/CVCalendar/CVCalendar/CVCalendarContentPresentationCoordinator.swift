@@ -1,36 +1,3 @@
-//
-//  CVCalendarContentViewPresentationCoordinator.swift
-//  CVCalendar Demo
-//
-//  Created by Ethan Setnik on 2/10/17.
-//  Copyright © 2017 GameApp. All rights reserved.
-//
-
-import UIKit
-protocol CVCalendarContentPresentationCoordinator {
-  func setDayOutViewsVisible(monthViews: [Identifier: MonthView], visible: Bool)
-}
-
-extension CVCalendarContentPresentationCoordinator {
-  public func setDayOutViewsVisible(monthViews: [Identifier: MonthView], visible: Bool) {
-    for monthView in monthViews.values {
-      monthView.mapDayViews { dayView in
-        if dayView.isOut {
-
-          if visible {
-            dayView.alpha = 0
-            dayView.isHidden = false
-          }
-
-          UIView.animate(withDuration: 0.5, delay: 0,
-                         options: UIView.AnimationOptions(),
-                         animations: {
-            dayView.alpha = visible ? 1 : 0
-          }, completion: { _ in
-            dayView.isHidden = !visible
-          })
-        }
-      }
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8677708d3c22a29f45c26ae158fd2fb6e254bf315f4fcce14daa7586567d46b5
+size 995

@@ -1,22 +1,3 @@
-//
-//  View+StackView.swift
-//  CalendarKit
-//
-//  Created by Erick Sanchez on 5/10/18.
-//
-
-import UIKit
-
-extension UIStackView {
-	convenience init(axis: NSLayoutConstraint.Axis = .vertical,
-				   distribution: UIStackView.Distribution = .fill,
-				   alignment: UIStackView.Alignment = .fill,
-                   spacing: CGFloat = 0,
-                   subviews: [UIView] = []) {
-    self.init(arrangedSubviews: subviews)
-    self.axis = axis
-    self.distribution = distribution
-    self.alignment = alignment
-    self.spacing = spacing
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ba614699aa11cfea869b1ffd4b0c96c08b2ec9a19148c4bb322a97e2a8e92e08
+size 546

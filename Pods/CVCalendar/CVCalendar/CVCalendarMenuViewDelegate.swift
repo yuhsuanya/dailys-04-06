@@ -1,22 +1,3 @@
-//
-//  CVCalendarMenuViewDelegate.swift
-//  CVCalendar Demo
-//
-//  Created by Eugene Mozharovsky on 15/04/15.
-//  Copyright (c) 2015 GameApp. All rights reserved.
-//
-
-import Foundation
-import UIKit
-
-@objc
-public protocol CVCalendarMenuViewDelegate {
-    @objc optional func firstWeekday() -> Weekday
-    @objc optional func dayOfWeekTextColor(by weekday: Weekday) -> UIColor
-    @objc optional func dayOfWeekBackGroundColor(by weekday: Weekday) -> UIColor
-    @objc optional func dayOfWeekTextColor() -> UIColor
-    @objc optional func dayOfWeekBackGroundColor() -> UIColor
-    @objc optional func dayOfWeekTextUppercase() -> Bool
-    @objc optional func dayOfWeekFont() -> UIFont
-    @objc optional func weekdaySymbolType() -> WeekdaySymbolType
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d266d9a5a2d36f9b551569414eb987bd435884d761d2bb3a0bfc0b9663024778
+size 748

@@ -1,17 +1,3 @@
-//
-//  eventData.swift
-//  test
-//
-//  Created by Alice Lai on 2021/3/30.
-//  Copyright © 2021 graduateproj. All rights reserved.
-//
-
-import Foundation
-import RealmSwift
-
-class eventDataList : Object{
-    @objc dynamic var content = " "
-    @objc dynamic var note :String? = nil
-//    @objc dynamic var Starttime = Date()
-//    @objc dynamic var Endtime = Date()
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:721cc5eb92229dc27f2b68681ca36bf1dc06c88387b900e7700cea035b1aeedd
+size 366

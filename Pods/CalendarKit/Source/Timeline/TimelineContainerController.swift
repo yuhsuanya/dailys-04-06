@@ -1,30 +1,3 @@
-import UIKit
-
-public final class TimelineContainerController: UIViewController {
-  /// Content Offset to be set once the view size has been calculated
-  public var pendingContentOffset: CGPoint?
-  
-  public lazy var timeline = TimelineView()
-  public lazy var container: TimelineContainer = {
-    let view = TimelineContainer(timeline)
-    view.addSubview(timeline)
-    return view
-  }()
-  
-  public override func loadView() {
-    view = container
-  }
-  
-  public override func viewDidLayoutSubviews() {
-    super.viewDidLayoutSubviews()
-    container.contentSize = timeline.frame.size
-    if let newOffset = pendingContentOffset {
-      // Apply new offset only once the size has been determined
-      if view.bounds != .zero {
-        container.setContentOffset(newOffset, animated: false)
-        container.setNeedsLayout()
-        pendingContentOffset = nil
-      }
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:23a5e68cc34783ef9bc6f777a11f298c8017f0aca8b777c5d826eb44d923791d
+size 882

@@ -1,19 +1,3 @@
-//
-//  ColorsConfig.swift
-//  CVCalendar Demo
-//
-//  Created by Jonas-Taha El Sesiy on 10.02.18.
-//  Copyright © 2018 GameApp. All rights reserved.
-//
-
-import UIKit
-
-struct ColorsConfig {
-    static let selectedText = UIColor.white
-    static let text = UIColor.black
-    static let textDisabled = UIColor.gray
-    static let selectionBackground = UIColor(red: 0.2, green: 0.2, blue: 1.0, alpha: 1.0)
-    static let sundayText = UIColor(red: 1.0, green: 0.2, blue: 0.2, alpha: 1.0)
-    static let sundayTextDisabled = UIColor(red: 1.0, green: 0.6, blue: 0.6, alpha: 1.0)
-    static let sundaySelectionBackground = sundayText
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:411b1247c6422e452c20ab97e09b111373dddafd4867b10b8bf426a4f3ce3d15
+size 628

@@ -1,13 +1,3 @@
-//
-//  CVStatus.swift
-//  CVCalendar
-//
-//  Created by 최완복 on 2016. 7. 28..
-//  Copyright © 2016년 GameApp. All rights reserved.
-//
-
-import Foundation
-
-@objc public enum CVStatus: Int {
-    case `in`, out, disabled, selected, highlighted
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:914985b2ae1254e35bae43ddf504b69358f8586022fc16a4f915a9dc5e7090bb
+size 248

@@ -1,24 +1,3 @@
-//
-//  UIWindow+.swift
-//  HelloQQ
-//
-//  Created by JerryYu on 2020/8/13.
-//  Copyright © 2020 DolphinBro. All rights reserved.
-//
-
-import UIKit
-
-extension UIWindow {
-    static var keyWindow: UIWindow? {
-        var keyWindow: UIWindow?
-        if #available(iOS 13, *) {
-            keyWindow = UIApplication.shared.connectedScenes
-                .compactMap { $0 as? UIWindowScene }
-                .flatMap { $0.windows }
-                .first(where: { $0.isKeyWindow })
-        } else {
-            keyWindow = UIApplication.shared.keyWindow
-        }
-        return keyWindow
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c2a0968c3f6d4cdb302cec6088e27a0c678d3570fc93fac97fa79ba43a4d9384
+size 594

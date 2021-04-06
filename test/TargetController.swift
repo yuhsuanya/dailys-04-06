@@ -1,19 +1,3 @@
-//
-//  TargetController.swift
-//  test
-//
-//  Created by Jenny huoh on 2020/10/9.
-//  Copyright © 2020 graduateproj. All rights reserved.
-//
-
-import UIKit
-
-class TargetController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .orange
-    }
-
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ecddc9ac13addcf82481aa892ca23cf02339fe54c3246191f10fd62dbfc593f4
+size 312

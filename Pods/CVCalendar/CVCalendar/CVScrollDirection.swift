@@ -1,23 +1,3 @@
-//
-//  CVScrollDirection.swift
-//  CVCalendar Demo
-//
-//  Created by Eugene Mozharovsky on 12/04/15.
-//  Copyright (c) 2015 GameApp. All rights reserved.
-//
-
-import Foundation
-
-public enum CVScrollDirection {
-    case none
-    case right
-    case left
-
-    var description: String {
-        switch self {
-        case .left: return "Left"
-        case .right: return "Right"
-        case .none: return "None"
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8c06cde11c4901236b70992b775bf567a38d9bd382176236edf2591ef7fef0d8
+size 427
